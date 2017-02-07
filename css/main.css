@@ -30,10 +30,10 @@ body {
   margin: .25em 0;
 }
 .idle-cta {
-  background: #F4F4F1;
+  border: .125em solid rgba(243, 243, 241, .6);
   border-radius: .5em;
   box-sizing: border-box;
-  color: #82969B;
+  color: #F4F4F1;
   display: inline-block;
   font-size: 1.25rem;
   font-weight: 600;
