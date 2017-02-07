@@ -25,10 +25,6 @@ body {
   width: 100%;
 }
 
-.idle-cta-teaser {
-  color: #fff;
-  margin: .25em 0;
-}
 .idle-cta {
   border: .125em solid rgba(243, 243, 241, .6);
   border-radius: .5em;
