@@ -1,0 +1,65 @@
+html {
+/*
+  background-image: radial-gradient(ellipse at 75% 25%, #e9a448 0%,#e87255 40%,#db5172 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+*/
+  background-image: url('../img/idle-bg.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+.idle-container {
+  box-sizing: border-box;
+  padding: 0 1em;
+  width: 100%;
+}
+.idle-logo {
+  width: 100%;
+}
+.idle-logo > img {
+  width: 100%;
+}
+
+.idle-cta-teaser {
+  color: #fff;
+  margin: .25em 0;
+}
+.idle-cta {
+  background: #F4F4F1;
+  border-radius: .5em;
+  box-sizing: border-box;
+  color: #82969B;
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 1em 0;
+  padding: .5em;
+  text-decoration: none;
+  width: 100%;
+}
+
+@media (min-width: 30rem) {
+  .idle-container {
+    margin: 0 auto;
+    max-width: 35rem;
+  }
+  .idle-logo {
+    margin: 1rem auto 3rem;
+    width: 20rem;
+  }
+  .idle-cta {
+    font-size: 1.5rem;
+    margin: 1em auto;
+    max-width: 25rem;
+  }
+}
